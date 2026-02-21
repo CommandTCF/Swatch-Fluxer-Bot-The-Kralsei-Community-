@@ -45,3 +45,20 @@ gateway.on("MESSAGE_REACTION_ADD", async (payload) => {
 
 console.log("Reaction role bot online...");
 gateway.connect();
+
+// ====== REACTION ROLE HANDLER ======
+// gateway.on("MESSAGE_REACTION_ADD", (payload) => {
+  // This will log everything for you to see in Railway
+  // console.log("Reaction detected:", payload);
+
+  // Only continue if it's the correct message and emoji
+  // if (payload.message_id !== "1474770960850903163") return;
+  // if (payload.emoji.name !== "kralsei_hug_2") return;
+
+  // try {
+    // rest.put(`/guilds/${payload.guild_id}/members/${payload.user_id}/roles/1474485699522564173`);
+    // console.log(`Assigned verification role to ${payload.user_id}`);
+  // } catch (err) {
+    // console.error("Role assign error:", err);
+  // }
+// });
