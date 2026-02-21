@@ -1,17 +1,9 @@
 {
   "name": "swatch",
   "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "start": "node bot.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
+  "main": "index.js",
   "dependencies": {
-    "@discordjs/core": "^2.4.0",
-    "@discordjs/rest": "^2.6.0",
-    "@discordjs/ws": "^2.0.4"
+    "@discordjs/rest": "^2.2.0",
+    "@discordjs/ws": "^1.0.0"
   }
 }
