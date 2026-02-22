@@ -56,3 +56,6 @@ gateway.on("MESSAGE_REACTION_ADD", async (payload) => {
 
 console.log("Connecting to gateway...");
 gateway.connect();
+gateway.on("dispatch", (event) => {
+  console.log("EVENT:", event.t);
+});
